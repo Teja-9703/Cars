@@ -1,0 +1,246 @@
+   .full{
+    margin: -10px;
+}
+
+.header{
+    background-color: beige;
+    width: 100%;
+    height: 110px;
+    display: flex;
+    flex: column;
+    gap:980px;
+    padding-right: 25px;
+    justify-content: center;
+    position: fixed;
+}
+
+.con{
+    text-justify: center;
+    color: black;
+    display: flex;
+    gap:26px;
+    padding-top: 50px;
+    font-size: 20px;
+}
+
+.logo{
+    height: 120px;
+    width: 120px;
+    padding-left: 10px;
+    padding-top: 10px;
+    
+}
+
+.first{
+    background-image: url("https://images.hdqwalls.com/download/bugatti-chiron-pur-sport-2020-front-rl-3840x2160.jpg");
+    height: 800px;
+    background-size: cover;
+    margin-top: -50px;
+}
+
+h1{
+    font-size: 50px;
+    text-align: center;
+    padding-top: 590px;
+    color: azure;
+}
+
+.co{
+    font-size: 35px;
+    text-align: center;
+    padding-top: -250px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(255, 255, 255);
+}
+
+
+.second{
+    background-color: antiquewhite;
+    margin-top: -20px;
+    padding-bottom: 20px;
+}
+
+.ab{
+    text-align: center;
+    text-justify: center;
+    padding-top: 25px;
+    font-size: 20px;
+}
+
+.se{
+    display: flex;
+    gap:20px;
+    padding-top: 50px;
+    gap: 75px;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.sr{
+    padding-left: 25px;
+    background-color: rgb(226, 234, 224);
+    border-radius: 10px;
+    width: 300px;
+    height: 400;
+}
+
+.md{
+    padding-left: 25px;
+    background-color: rgb(226, 234, 224);
+    border-radius: 10px;
+    width: 300px;
+    height: 400;
+}
+
+.of{
+    padding-left: 25px;
+    background-color: rgb(226, 234, 224);
+    border-radius: 10px;
+    width: 350px;
+    height: 400;
+}
+
+.third{
+    background-color: blanchedalmond;
+    margin-top: -25px;
+}
+
+.ab1{
+    text-align: center;
+    text-justify: center;
+    padding-top: 25px;
+    font-size: 30px;
+}
+
+.sed{
+    background-color: rgb(191, 218, 255);
+    width: 270px;
+    height: 300px;
+    border-radius: 20px;
+    margin-left: 20px;
+    box-shadow: 5px 5px 15px gray;
+}
+
+.c1{
+    width: 100%;
+    height: 170px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    
+    
+}
+
+.ec{
+    padding-left:20px ;
+}
+
+.vi{
+    padding-left: 20px;
+}
+
+.th{
+    display: flex;
+    flex: row;
+    gap:30px;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+.fourth{
+    height: 180px;
+}
+
+.in{
+    display: flex;
+    flex: row;
+    gap: 40px;
+    justify-content: center;
+}
+
+.footer{
+    height: 125px;
+    background-color: rgb(72, 132, 228);
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    line-height: 0.2;
+}
+
+h5{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 30px;
+    color: white;   
+}
+
+.f{
+    text-align: center;
+    font-size: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+}
+
+
+@media all and (max-width:1024px){
+    
+    .header{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 200px;
+        gap: 2px;
+        margin-top: -20px;
+        min-width: 100%;
+    }
+
+    .con{
+        margin-top: -55px;
+        display: flex;
+        flex-direction: row;
+        gap: 35px;  
+        font-size: 25px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+
+    .se{
+        display: flex;
+    flex-direction: column;
+
+}
+
+
+.th{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: -50px;
+
+}
+
+.sr{
+    
+    width: 200px;
+   
+    
+}
+
+.md{
+   
+    width: 200px;
+   
+    
+}
+
+.of{
+    
+    width: 200px;
+    
+    
+}
+}
